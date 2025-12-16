@@ -1,0 +1,76 @@
+##########################################
+# General company information collection #
+##########################################
+"TARGET"
+"TARGET" site:linkedin.com
+"TARGET" site:facebook.com
+"TARGET" site:twitter.com
+"TARGET" site:x.com
+"TARGET" site:youtube.com
+
+################################################
+# Public documents associated with the company #
+################################################
+"TARGET" filetype:pdf
+"TARGET" filetype:doc OR filetype:docx
+"TARGET" filetype:xls OR filetype:xlsx
+"TARGET" filetype:ppt OR filetype:pptx
+"TARGET" filetype:csv
+
+########################
+# Potential data leaks #
+########################
+"TARGET" site:pastebin.com
+"TARGET" site:ghostbin.com
+"TARGET" site:hastebin.com
+"TARGET" "password"
+"TARGET" "confidential"
+"TARGET" "not for distribution"
+
+#########################
+# Repositories and code #
+#########################
+"TARGET" site:github.com
+"TARGET" site:gitlab.com
+"TARGET" site:bitbucket.org
+"TARGET" filetype:env
+"TARGET" filetype:yml OR filetype:yaml
+"TARGET" filetype:json
+
+########################
+# Employees and emails #
+########################
+"TARGET" "@acme.com"
+"TARGET" email
+"TARGET" contact
+"TARGET" resume
+"TARGET" CV
+"TARGET" site:linkedin.com/in
+
+####################################
+# News, forums, and external leaks #
+####################################
+"TARGET" site:reddit.com
+"TARGET" site:medium.com
+"TARGET" site:stackoverflow.com
+"TARGET" site:trello.com
+"TARGET" site:slack.com
+
+##################################################
+# Related infrastructure (by names, not domains) #
+##################################################
+"TARGET" "vpn"
+"TARGET" "ssh"
+"TARGET" "rdp"
+"TARGET" "jira"
+"TARGET" "confluence"
+"TARGET" "zendesk"
+
+#######################################
+# Financial and sensitive information #
+#######################################
+"TARGET" "budget"
+"TARGET" "salary"
+"TARGET" "financial report"
+"TARGET" "confidential"
+"TARGET" "do not distribute"

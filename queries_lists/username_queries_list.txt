@@ -1,0 +1,51 @@
+#################################
+# General presence of the alias #
+#################################
+"TARGET"
+
+##############################
+# Social networks and forums #
+##############################
+"TARGET" site:linkedin.com
+"TARGET" site:twitter.com
+"TARGET" site:facebook.com
+"TARGET" site:instagram.com
+"TARGET" site:reddit.com
+"TARGET" site:stackoverflow.com
+"TARGET" site:medium.com
+"TARGET" site:tumblr.com
+
+#########################
+# Repositories and code #
+#########################
+"TARGET" site:github.com
+"TARGET" site:gitlab.com
+"TARGET" site:bitbucket.org
+"TARGET" site:gist.github.com
+
+#######################
+# Documents and leaks #
+#######################
+"TARGET" site:pastebin.com
+"TARGET" site:ghostbin.com
+"TARGET" site:hastebin.com
+"TARGET" "password"
+"TARGET" "credentials"
+
+###############################
+# Infrastructure and services #
+###############################
+"TARGET" "ssh"
+"TARGET" "ftp"
+"TARGET" "rdp"
+"TARGET" "vpn"
+"TARGET" "jira"
+"TARGET" "confluence"
+
+############################
+# Directories and listings #
+############################
+"TARGET" inurl:profile
+"TARGET" inurl:user
+"TARGET" inurl:member
+"TARGET" intitle:"profile"

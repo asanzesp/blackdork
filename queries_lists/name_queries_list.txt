@@ -1,0 +1,101 @@
+####################################
+# Basic search for public mentions #
+####################################
+"TARGET"
+
+#######################################
+# Social networks and public profiles #
+#######################################
+# Find social media profiles even if they are partially hidden
+site:linkedin.com/in "TARGET"
+site:twitter.com "TARGET"
+site:facebook.com "TARGET"
+site:instagram.com "TARGET"
+site:tiktok.com "TARGET"
+site:github.com "TARGET"
+
+####################
+# Emails and leaks #
+####################
+# Try to identify possible personal emails
+"TARGET" "@gmail.com"
+"TARGET" "@hotmail.com"
+"TARGET" "@yahoo.com"
+"TARGET" "@outlook.com"
+# Detects leaks in forums, public databases, and dumps
+"TARGET" "contraseña"
+"TARGET" "password"
+"TARGET" "filtración de datos"
+
+###################################
+# PDF, DOCX, XLSX, PPTX documents #
+###################################
+# Search for public documents where your name appears. Useful for finding CVs, contracts, reports, or legal documents.
+"TARGET" filetype:pdf
+"TARGET" filetype:docx
+"TARGET" filetype:xlsx
+"TARGET" filetype:pptx
+
+#########################################
+# Academic and professional information #
+#########################################
+# Locate academic publications or research signed by the person
+"TARGET" site:researchgate.net
+"TARGET" site:academia.edu
+"TARGET" site:orcid.org
+"TARGET" site:scholar.google.com
+
+########################
+# Reverse photo search #
+########################
+# Find public photos and related galleries
+"TARGET" site:flickr.com
+"TARGET" site:imgur.com
+"TARGET" site:500px.com
+"TARGET" site:pexels.com
+
+#####################
+# Media appearances #
+#####################
+# Look for news, interviews or press articles where the person has been mentioned
+"TARGET" site:elpais.com
+"TARGET" site:abc.es
+"TARGET" site:ideal.es
+"TARGET" site:europapress.es
+"TARGET" "noticia" OR "entrevista" OR "reportaje"
+
+##########################
+# Forums and communities #
+##########################
+# Identify conversations, questions and answers that could give clues about the person
+"TARGET" site:reddit.com
+"TARGET" site:forocoches.com
+"TARGET" site:quora.com
+"TARGET" site:stackoverflow.com
+
+#########################################
+# Public databases and official records #
+#########################################
+# Useful for finding companies, sanctions, public awards and official records
+"TARGET" site:boe.es
+"TARGET" site:expansion.com
+"TARGET" site:informa.es
+"TARGET" site:empresia.es
+
+#########################
+# Advanced combinations #
+#########################
+# Search for government documents where your name appears
+"TARGET" filetype:pdf OR filetype:docx OR filetype:xlsx site:gov.es
+# Detects documents where personal identifiers are mentioned
+"TARGET" AND ("DNI" OR "NIF" OR "Identificación")
+# Find CVs and personal portfolios
+"TARGET" inurl:resume | inurl:cv
+
+##################################
+# Hidden profiles and deep OSINT #
+##################################
+# Look for possible leaks of data, passwords or private messages
+"TARGET" site:pastebin.com
+"TARGET" site:ghostbin.com
+"TARGET" site:justpaste.it

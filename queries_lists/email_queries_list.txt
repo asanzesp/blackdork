@@ -1,0 +1,50 @@
+####################
+# General Presence #
+####################
+"TARGET"
+
+#########
+# Leaks #
+#########
+"TARGET" site:pastebin.com
+"TARGET" site:ghostbin.com
+"TARGET" site:hastebin.com
+"TARGET" site:paste2.org
+"TARGET" "password"
+"TARGET" "passwd"
+"TARGET" "credentials"
+
+################################
+# Social Networks and Profiles #
+################################
+"TARGET" site:linkedin.com
+"TARGET" site:twitter.com
+"TARGET" site:facebook.com
+"TARGET" site:github.com
+"TARGET" site:gitlab.com
+
+########################
+# Associated Documents #
+########################
+"TARGET" filetype:pdf
+"TARGET" filetype:doc OR filetype:docx
+"TARGET" filetype:xls OR filetype:xlsx
+"TARGET" filetype:csv
+
+############################
+# Services and Credentials #
+############################
+"TARGET" "login"
+"TARGET" "username"
+"TARGET" "api_key"
+"TARGET" "token"
+"TARGET" "ssh"
+"TARGET" "vpn"
+
+#################################
+# Directories and Subscriptions #
+#################################
+"TARGET" inurl:mail
+"TARGET" inurl:newsletter
+"TARGET" inurl:subscribe
+"TARGET" inurl:members

@@ -1,0 +1,91 @@
+##################################
+# General information collection #
+##################################
+site:TARGET
+site:*.TARGET
+site:TARGET -www
+site:TARGET inurl:login
+site:TARGET intitle:"index of"
+
+#################################
+# Exposed directories and files #
+#################################
+site:TARGET intitle:"index of /"
+site:TARGET "parent directory"
+site:TARGET ext:log
+site:TARGET ext:bak
+site:TARGET ext:old
+site:TARGET ext:swp
+site:TARGET ext:tmp
+site:TARGET ext:git
+site:TARGET ext:svn
+
+##################################
+# Credentials and sensitive data #
+##################################
+site:TARGET "password"
+site:TARGET "username"
+site:TARGET "login"
+site:TARGET "config"
+site:TARGET "credentials"
+site:TARGET "api_key"
+site:TARGET "secret"
+
+########################
+# Documents on display #
+########################
+site:TARGET ext:pdf
+site:TARGET ext:doc OR ext:docx
+site:TARGET ext:xls OR ext:xlsx
+site:TARGET ext:ppt OR ext:pptx
+site:TARGET ext:csv
+
+#######################################
+# Technologies, debugging, and errors #
+#######################################
+site:TARGET "phpinfo()"
+site:TARGET "index of /admin"
+site:TARGET "index of /uploads"
+site:TARGET "index of /backup"
+site:TARGET "error in"
+site:TARGET "sql syntax"
+site:TARGET "mysql_fetch"
+
+#################################
+# Exposed code and repositories #
+#################################
+site:TARGET ext:env
+site:TARGET ext:xml
+site:TARGET ext:json
+site:TARGET ext:yml OR ext:yaml
+site:TARGET "github.com"
+site:TARGET "bitbucket.org"
+site:TARGET "gitlab.com"
+
+################################
+# External OSINT (correlation) #
+################################
+"TARGET" inurl:pastebin.com
+"TARGET" inurl:github.com
+"TARGET" inurl:trello.com
+"TARGET" inurl:jsfiddle.net
+"TARGET" inurl:ghostbin
+
+##############################
+# Endpoint and API detection #
+##############################
+site:TARGET inurl:api
+site:TARGET inurl:graphql
+site:TARGET inurl:rest
+site:TARGET "API key"
+site:TARGET "Bearer token"
+
+#################################
+# Forms, logins, and dashboards #
+#################################
+site:TARGET inurl:signup
+site:TARGET inurl:register
+site:TARGET inurl:dashboard
+site:TARGET inurl:portal
+site:TARGET inurl:cpanel
+site:TARGET intitle:"admin"
