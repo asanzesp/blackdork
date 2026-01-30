@@ -371,7 +371,7 @@ function get_URLs() {
 
 function get_help() {
   cat << EOF
-${PROJECT_NAME} ${VERSION} ( https://github.com/blackdork )
+${PROJECT_NAME} ${VERSION} ( https://github.com/asanzesp/blackdork )
 Usage: blackdork [Target Selection] [Options]
 TARGET SPECIFICATION:
   Pass a single target type. If multiple are provided, only the highest priority
